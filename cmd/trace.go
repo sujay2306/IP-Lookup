@@ -12,6 +12,7 @@ import (
 )
 
 // traceCmd represents the trace command
+
 var traceCmd = &cobra.Command{
 	Use:   "trace",
 	Short: "Trace the IP",
@@ -42,7 +43,6 @@ func init() {
 //     "org": "AS13335 Cloudflare, Inc.",
 //     "postal": "33132",
 //     "timezone": "America/New_York",
-//     "readme": "https://ipinfo.io/missingauth"
 // }
 
 type Ip struct {
